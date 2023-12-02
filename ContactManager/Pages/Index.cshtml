@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Add any additional meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome" class="text-center">
+            <h1 class="display-4">Welcome to Workoholic</h1>
+            <p>Representing artists from around the world with different talents.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Workoholic.com, founded by Gaurav Mehta and Rupal Bhatia. We are a leading agency representing talented artists from various parts of the world, showcasing their unique and diverse talents.</p>
+        </section>
+
+        <section id="artists">
+            <h2>Featured Artists</h2>
+
+            <ul class="artist-list">
+                <li>Post Malone - Pop</li>
+                <li>Taylor Swift - Country/Pop</li>
+                <li>Kendrick Lamar - Hip Hop</li>
+                <li>Adele - Pop/Soul</li>
+                <li>Ed Sheeran - Pop/Folk</li>
+            </ul>
+
+            <h2>Featured WWE Wrestlers</h2>
+
+            <ul class="artist-list">
+                <li>John Cena</li>
+                <li>Becky Lynch</li>
+                <li>Roman Reigns</li>
+                <li>Charlotte Flair</li>
+                <li>Seth Rollins</li>
+            </ul>
+        </section>
+
+
+
+
+    <!-- Add any additional scripts or libraries here -->
+
+</body>
+</html>
